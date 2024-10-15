@@ -1,0 +1,22 @@
+{
+  "estudiante": [
+    {
+      "id": "1",
+      "nombre": "pepe",
+      "apellido": "lapua",
+      "email": "pep@gmail.com"
+    },
+    {
+      "id": "d0fd",
+      "nombre": "Gabriel",
+      "apellido": "YouTics",
+      "email": "gabrielchaldu@gmail.com"
+    },
+    {
+      "id": "16b6",
+      "nombre": "Micaela",
+      "apellido": "Admin",
+      "email": "admi.istitutodantealighieri@gmail.com"
+    }
+  ]
+}
