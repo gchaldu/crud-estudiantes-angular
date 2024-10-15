@@ -1,25 +1,27 @@
 <section>
-  <h2>Alta de Estudiantes</h2>
-  <form action="">
-    <label for="">Nombre: </label>
-    <input
-      type="text"
-      [(ngModel)]="estudiante.nombre"
-      [ngModelOptions]="{ standalone: true }"
-    />
-    <label for="">Apellido: </label>
-    <input
-      type="text"
-      [(ngModel)]="estudiante.apellido"
-      [ngModelOptions]="{ standalone: true }"
-    />
-    <label for="">Email: </label>
-    <input
-      type="email"
-      [(ngModel)]="estudiante.email"
-      [ngModelOptions]="{ standalone: true }"
-    />
+  <fieldset>
+    <legend>Alta de Estudiantes</legend>
+    <form action="">
+      <label for="">Nombre: </label>
+      <input
+        type="text"
+        [(ngModel)]="estudiante.nombre"
+        [ngModelOptions]="{ standalone: true }"
+      />
+      <label for="">Apellido: </label>
+      <input
+        type="text"
+        [(ngModel)]="estudiante.apellido"
+        [ngModelOptions]="{ standalone: true }"
+      />
+      <label for="">Email: </label>
+      <input
+        type="email"
+        [(ngModel)]="estudiante.email"
+        [ngModelOptions]="{ standalone: true }"
+      />
 
-    <button (click)="enviandoEstudiante()">Agregar Estudiante</button>
-  </form>
+      <button (click)="enviandoEstudiante()">Agregar Estudiante</button>
+    </form>
+  </fieldset>
 </section>
